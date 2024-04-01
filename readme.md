@@ -1,4 +1,4 @@
-# LinkedIn Connection Automation Script
+# LinkedIn Connection Automation Chrome extenstion
 
 This script is designed to automate the process of sending connection requests on LinkedIn, streamlining your networking efforts with efficiency and ease. 🚀
 
