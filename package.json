@@ -1,13 +1,19 @@
 {
-    "name": "linkedin-automation",
-    "version": "1.0.0",
-    "description": "A brief description of your project",
-    "main": "main.js",
-    "scripts": {
-      "start": "node main.js"
+    "manifest_version": 3,
+    "name": "Linkedin Connection",
+    "version": "1.0",
+    "description": "Send connection requests automatically.",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+    "background": {
+      "service_worker": "background.js"
+    }
   }
   
