@@ -1,0 +1,13 @@
+{
+    "name": "linkedin-automation",
+    "version": "1.0.0",
+    "description": "A brief description of your project",
+    "main": "main.js",
+    "scripts": {
+      "start": "node main.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
